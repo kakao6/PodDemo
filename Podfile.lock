@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MJRefresh (3.4.3)
+  - PodDemo (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MJRefresh
+  - PodDemo (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  PodDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  PodDemo: 314cd409ca9b38735f79bfcad01fb1f93048cb69
+
+PODFILE CHECKSUM: 8618fc92c7c0a64d7deb53730b9a04e065d0431c
+
+COCOAPODS: 1.9.3
